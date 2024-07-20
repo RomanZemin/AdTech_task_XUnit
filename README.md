@@ -62,23 +62,23 @@ Unit-тесты для проекта находятся в отдельной �
 
 1. Склонируйте репозиторий.
 2. Перейдите в директорию проекта:
-cd path/to/AdTech_task
+`sh cd path/to/AdTech_task`
 
 Воспользуйтесь dotnet для запуска проекта:
-dotnet run -- -add FirstName:John LastName:Doe Salary:100.50
+`sh dotnet run -- -add FirstName:John LastName:Doe Salary:100.50`
 
 Примеры использования
 Добавление нового сотрудника:
-dotnet run -- -add FirstName:John LastName:Doe Salary:100.50
+`sh dotnet run -- -add FirstName:John LastName:Doe Salary:100.50`
 
 Обновление информации о сотруднике:
-dotnet run -- -update Id:1 FirstName:Jane Salary:150.75
+`sh dotnet run -- -update Id:1 FirstName:Jane Salary:150.75`
 
 Получение информации о сотруднике:
-dotnet run -- -get Id:1
+`sh dotnet run -- -get Id:1`
 
 Удаление сотрудника:
-dotnet run -- -delete Id:1
+`sh dotnet run -- -delete Id:1` 
 
 Получение списка всех сотрудников:
-dotnet run -- -getall
+`sh dotnet run -- -getall`
